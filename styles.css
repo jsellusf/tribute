@@ -1,0 +1,59 @@
+body {
+    background: #e4000f;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vw;
+}
+
+ul{
+    border-left: 2px dotted white;
+    padding-left: 3em;
+    margin-left: 1em;
+}
+#main {
+    background-color: #000000;
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+#img-div img{
+    max-width: 60%;
+    height: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+figcaption {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+#tribute-info {
+    text-align: left;
+    padding: 1em;
+    padding-right: 10em;
+}
+
+li {
+color: white;
+padding-bottom: 1em;
+list-style-type: none;
+}
+
+.firstword {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 10vw;
+    }
+}
